@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Hero Section with background image */
+/* Hero Section with new library/e-book background */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1500&q=80'); /* Library / books image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.hero-overlay h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Subscribe Button */
+.subscribe-btn {
+    display: inline-block;
+    background-color: #FFD700; /* yellow */
+    color: #000; /* black text */
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color: #FFC107; /* slightly darker yellow on hover */
+}
+
+
+/* About Section */
+.about {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+/* Donate Section */
+.donate {
+    background-color: #e6f0ff;
+    padding: 40px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #00509e;
+}
+
+/* Footer */
+footer {
+    background-color: #002244;
+    color: white;
+    padding: 40px 20px 20px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+    }
+}
+/* Subscribe Button */
+.subscribe-btn {
+    display: inline-block;
+    background-color: #FFD700; /* yellow */
+    color: #000; /* black text */
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.subscribe-btn:hover {
+    background-color: #FFC107; /* slightly darker yellow on hover */
+}
+header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.logo {
+  width: 100px;   /* adjust size */
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+
